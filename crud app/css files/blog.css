@@ -1,0 +1,119 @@
+.contact {
+    /* border: 2px solid red; */
+}
+
+.contact .contacter {
+    padding: 0px;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+div#home {
+    margin-bottom: 10%;
+}
+
+.contact .contacter .content {
+    margin-bottom: 10%;
+    /* border: 2px solid blue; */
+    justify-content: center;
+}
+
+.contact .contacter  form {
+    width: 100%;
+}
+
+.contact .contacter  form #blogImg {
+    /* border: 2px solid red; */
+    padding: 20px;
+    background-color: #065506;
+}
+
+.contact .contacter  form label {
+    color: black;
+
+    font-size: 2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.xert .contacter{
+    display: flex;
+    align-items: centers;
+    justify-content: center;
+    /* background-color: #065506; */
+    flex-direction: column;
+}
+.xert .contacter
+form{
+    
+    margin-bottom: 50px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    /* background-color: #065506; */
+    flex-direction: column;
+    padding: 30px;
+}
+.xert .contacter
+form label{
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  text-transform: capitalize;
+}
+.xert .contacter
+form input{
+    width: 80%;
+    padding: 10px 20px;
+    background-color: #065506;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+.xert .contacter
+form textarea{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #065506;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.4em;
+}
+.xert .contacter
+form button{
+    width: 80%;
+    padding: 10px 10px;
+    font-size: 1.6em;
+    background-color: #065506;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        border: 2px solid red;
+        /* width: 100%; */
+        padding: 0px;
+        display: block;
+    }
+
+    .contact .contacter {
+        /* width: 100%; */
+        border: 2px solid darkorange;
+        padding: 0px;
+    }
+
+    .contact .contacter .content {
+        border: 2px solid blue;
+        
+
+    }
+
+    .contact .contacter .content form input {
+        width: 100%;
+    }
+}
