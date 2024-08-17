@@ -1,0 +1,72 @@
+
+
+body{
+    height: 100vh;
+    
+}
+
+.perant{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    
+    padding: 0px 20px;
+    
+    /* border: 2px solid red; */
+}
+.perant .left{
+    /* border: 2px solid rgb(0, 47, 255); */
+    text-transform: capitalize;
+    width: 40%;
+    text-align: center;
+    height: 100%;
+    padding: 80px 10px;
+    border-radius: 20px;
+
+    background-color: #ffffff;
+    box-shadow: 3px 5px 50px 2px #00000079;
+}
+.perant .left img{
+    margin-bottom: 10px;
+    border-radius: 100px;
+    border: 2px solid #266800;
+    box-shadow: 3px 1px 20px 3px rgba(0, 0, 0, 0.39);
+    width: 40%;
+
+}
+
+.perant .right{
+    /* border: 2px solid red; */
+    width: 60%;
+    text-align: left;
+}
+
+.perant .right .prof{
+    /* background-color: red; */
+    height: 80vh;
+/* border-left: 2px solid white; */
+
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+
+    padding: 20px 90px;
+}
+
+.perant .right .prof h1{
+    margin-bottom: 20px;
+}
+.perant .right .prof h1 span{
+    color: #ffffff;
+    margin-left: 12px;
+    text-transform: capitalize;
+}
+
+.uproh1{
+    text-align: center;
+    font-size: 5em;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
